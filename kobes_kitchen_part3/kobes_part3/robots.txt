@@ -1,0 +1,15 @@
+# robots.txt for Kobe's Kitchen
+# This file tells search engine crawlers which pages to index
+
+User-agent: *
+Allow: /
+
+# Pages search engines can index
+Allow: /index.html
+Allow: /about.html
+Allow: /services.html
+Allow: /enquiries.html
+Allow: /contact.html
+
+# Point crawlers to the sitemap
+Sitemap: /sitemap.xml
